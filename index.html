@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio MAGG</title>
+  <!-- Archivo CSS para resetear estilos -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <!-- Archivo CSS de estilos -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Marco Antonio González Guzmán</h1>
+    <nav id="navCabecera">
+      <ul>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div style="background-image: url('./assets/images/fondoHeader.webp'); height: 70px; background-repeat:no-repeat; background-size: cover;"><span class="titulo">Always Learning</span></div>
+
+  
+  <main>
+    <section>
+      <article id="aboutMe">
+        <div class="personalDescriptions">
+            <h1> About Me </h1>
+        </div>
+        <div class="textoPersonalDescription">
+          <p>I was born in Veracruz, Mexico in November 1977, I have been working in the Mexican Army in the area of information and communication technologies since 2001, I currently live in Mexico City, I have developed various technological solutions for the Army and I want to dedicate myself professionally to the development of public web applications for the exchange of encrypted information. </p>          
+        </div>
+      </article>
+      <article id="work">
+        <div class="personalDescriptions">
+            <h1> Work</h1>
+        </div>
+        <div class="textoPersonalDescription">          
+          <a style="background-image: url('./assets/images/projectManagment.png'); flex: 2 1 600px;" class="card works" href="#itProjectManagment"><span class="tituloWorks">IT Project Managment</span></a>          
+          <a style="background-image: url('./assets/images/expedienteClinicoElectronico.webp');" class="card works" href="#electronicHealthRecord"><span class="tituloWorks">Electronic health record</span></a>
+          <a style="background-image: url('./assets/images/telemedicina.webp');" class="card works" href="#telemedicinePlataform"><span class="tituloWorks">Telemedicine platform</span></a>
+          <a style="background-image: url('./assets/images/criptografia.webp');" class="card works" href="#securityTechnologies"><span class="tituloWorks">Security Technologies</span></a>                 
+          <a style="background-image: url('./assets/images/encryptedMessaging.webp');" class="card works" href="#encryptedInstantMessaging"><span class="tituloWorks">Encrypted instant messaging</span></a>                   
+        
+        </div>
+      </article>
+      <article id="contactMe">
+        <div class="personalDescriptions">
+            <h1> Contact Me</h1>
+        </div>
+        <div id="navContactMe">
+          <ul>
+            <li><a href="https://api.whatsapp.com/send?phone=+5215537335843" target="_blank">+52 1 5537335843</a></li>
+            <li><a href="mailto:marco.gonzalez@criptosedena.org">marco.gonzalez@criptosedena.org</a></li>
+            <li><a href="https://github.com/marcogonzalezguzman77" target="_blank">GitHub</a></li>
+            <li><a href="https://www.facebook.com/marcoantonio.gonzalezguzman.3/" target="_blank">Facebook</a></li>
+          </ul>
+        </div> 
+      </article>
+      <article id="resume">
+        <div class="personalDescriptions">
+            <h1> Resume </h1>
+        </div>
+        <div style="display:block; padding-left: 15px;">
+          <div>In 1995 I finished my technical career as an analyst programmer, since then I have enjoyed programming, in 2001 I finished my studies in engineering in communications and electronics, 2006 master degree in systems engineering and 2020 master degree in security technologies.</div>  
+          <div id="itProjectManagment" style="padding-top:15px;">Since 1995 and until now I have belonged to the Mexican Army, I use to work in IT Project Managment (IP Telephony, CCTV, Structure Cabling, Networking, Security) in military buildings and constructions. But sometimes I have developed some special applications to the Army as follows.</div> 
+          <div id="electronicHealthRecord" style="padding-top:15px;">From 2007 to 2009 I developed and implemented a web platform for electronic medical records in the child rehabilitation center of the Mexican army.</div>
+          <div id="telemedicinePlataform" style="padding-top:15px;">In 2010 I worked on a telemedicine platform for remote patient care in hospitals in remote populations that will not have specialist doctors, through which remote consultations could be made online to make timely diagnoses and avoid unnecessary travel. </div> 
+          <div id="securityTechnologies" style="padding-top:15px;">I have work in some security information technologies as: Criptography, Ethical Hacking, Pentesting and Cyber attacks</div>
+          <div id="encryptedInstantMessaging" style="padding-top:15px;">In 2020 I developed an instant messaging encrypted web application with the protocol End to End Encryption (E2EE) for the Mexican Army</div>     
+        </div>
+      </article>
+    </section>
+    
+  </main>
+
+  <footer>
+    <span>|| Marco Glz | Criptosedena.org | Copyright © 2021 ||</span>
+  </footer>
+</body>
+
+</html>

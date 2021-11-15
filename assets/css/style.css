@@ -1,0 +1,200 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-color: aliceblue;
+}
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+  /* Estilo del span titulo "Always Learning" */
+.titulo{ /* clase titulo para que se vaya el titulo al extremo derecho */
+   margin:2px;
+   padding:2px;
+   margin-top:30px;
+   color:white;
+   font-weight: bolder;
+   background-color: #13293d;
+   float:right;
+   
+ }
+
+
+/*estilos para titulos h1 */
+h1 {
+  font-size: 200%;
+ 
+}
+
+ /* estilos para los links de navegación en cabecera */
+#navCabecera ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+  
+#navCabecera a {
+  color: #b9C6ae;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
+
+/* estilos main */
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+/* estilos para section */
+section {
+  flex: 1 1 0;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+ 
+/* estilos para article */
+article {
+  display:flex; 
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+}
+ 
+/* estilos para parrafos dentro de div article */
+article p {
+  margin: 2% 0;
+  font-size: 110%;
+}
+
+/*todos los subtitulos about me, work, contact me, resume */
+article h1{
+  padding-right: 15px; 
+  border-right:black solid; 
+  width:135px;
+}
+
+/* clase para los divs de about me, work, contact me, resume */
+.personalDescriptions{
+  display:flex; 
+  justify-content: 
+  space-between; width:135px;
+}
+
+/* estilo para el texto en las descripciones empleadas en divs about me y work*/
+.textoPersonalDescription{
+  display:flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  padding-left: 15px;
+}
+
+/* clases card para las imagenes empleadas en works */
+.card {
+  flex: 1 0 200px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin:10px;
+  padding:20px;
+}
+
+.card img {
+ /* flex: 1 0 200px;*/
+  width: 100%;  
+}
+
+/* estilos para los divs dentro del articulo works */
+.works {
+  background-repeat:no-repeat; 
+  background-size: cover; 
+  cursor:pointer; 
+  border-style: solid; 
+  border-width: 3px; 
+  border-color: cadetblue;
+  text-decoration: none; 
+  color:black;
+}
+
+/*cambio de estilo cuando se coloca el cursor por arriba de los conceptos de work */
+.works:hover{
+  border-color: black;
+  opacity:0.4;
+}
+
+/*clase para los letreros en cada uno de los conceptos de works */
+.tituloWorks{
+  /*background-color:cadetblue; */
+  background: rgba(76, 175, 80, 0.3);
+  padding:5px; 
+  font-weight: bold;
+  /*opacity: 0.4;*/
+}
+
+/*estilos para los links de navegación en Contact Me*/
+#navContactMe ul {
+  display: flex;
+  /*justify-content: flex-start;*/
+  flex-wrap:wrap;
+  align-content: flex-start;
+  /*align-content: stretch;*/
+  padding-top:10px;  
+  margin:10px;
+  /*justify-content: space-between;*/
+  min-width: 300px;
+}
+ 
+#navContactMe li{  
+  margin:5px;
+  padding:5px;
+  /*background-color: blue;*/
+}
+
+#navContactMe a {
+  color:black;    
+  /*text-decoration: none;*/
+  padding-top:  10px;
+  padding-left: 10px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+  font-size:16px;
+}
+
+
+/* estilos para pie de pagina */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+/*reglas para estilos responsivos */
+@media screen and (max-width: 872px) {
+  header, main {
+    flex-direction: column;
+  }
+  
+  section {
+    padding: 0;
+   /* padding-left: 5px;*/
+  }
+     
+}
