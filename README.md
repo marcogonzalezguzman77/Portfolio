@@ -15,4 +15,4 @@ The following animation shows the portafolio web application's appearance and fu
 ![portfolio demo](./assets/images/portfolioMaggV3.gif)
 
 
-You can watch the web page on the next link [Marco Glz Portfolio](https://marcogonzalezguzman77.github.io/TareasBootCampCode/tareaCapituloUno/) for more guidance.
+You can watch the web page on the next link [Marco Glz Portfolio](https://marcogonzalezguzman77.github.io/Portfolio/) for more guidance.
