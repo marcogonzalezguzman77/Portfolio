@@ -91,7 +91,8 @@ article h1{
 .personalDescriptions{
   display:flex; 
   justify-content: 
-  space-between; width:135px;
+  space-between; 
+  /*width:135px;*/
 }
 
 /* estilo para el texto en las descripciones empleadas en divs about me y work*/
@@ -105,7 +106,7 @@ article h1{
 /* clases card para las imagenes empleadas en works */
 .card {
   flex: 1 0 200px;
-  padding: 10px;
+ /* padding: 10px;*/
   width: 250px;
   text-align: center;
   border-style: solid;
@@ -188,6 +189,22 @@ footer {
 }
 
 /*reglas para estilos responsivos */
+/*menor de 450px*/
+@media screen and (max-width: 450px) {
+  body{
+    flex-wrap: wrap;
+  }
+  header, main {
+    flex-direction: column;    
+  }
+  
+  section {
+    padding: 0;
+   /* padding-left: 5px;*/
+  }
+}
+
+/*menor de 872px*/
 @media screen and (max-width: 872px) {
   header, main {
     flex-direction: column;
@@ -199,3 +216,5 @@ footer {
   }
      
 }
+
+
