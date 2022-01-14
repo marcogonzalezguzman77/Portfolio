@@ -12,7 +12,7 @@ The wep page is responsive, you can click on the navigation links and go to the 
 
 The following animation shows the portafolio web application's appearance and functionality:
 
-![portfolio demo](./assets/images/portfolioMaggV3.gif)
+![portfolio demo](./assets/images/portafolioUpdated13ene2022.gif)
 
 
 You can watch the web page on the next link [Marco Glz Portfolio](https://marcogonzalezguzman77.github.io/Portfolio/) for more guidance.
